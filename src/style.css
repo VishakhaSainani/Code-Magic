@@ -296,9 +296,8 @@ main > section:last-of-type {
 .preview-slider {
   height: 80px;
   width: 200px;
-
-  position: absolute;
-  left: -300px;
+  position: relative;
+  margin-bottom: 65px;
   border: 1px solid #fff;
   background: transparent;
 }
@@ -319,6 +318,11 @@ main > section:last-of-type {
 [data-content='animation'] .preview-slider {
   top: -50%;
 }
+
+/* [data-content='animation'] .preview-slider {
+  top: +20%;
+  right: -50%;
+} */
 
 [data-content='transform'] .preview-slider {
   top: -50%;
